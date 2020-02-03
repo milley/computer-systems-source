@@ -30,10 +30,3 @@ void test_show_bytes(int val) {
   show_float(fval);
   show_pointer(pval);
 }
-
-int main() {
-  int ival = 12345;
-  test_show_bytes(ival);
-
-  return 0;
-}
