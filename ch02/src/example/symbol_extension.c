@@ -18,5 +18,9 @@ int main() {
   printf("ux  = %u:\t", ux);
   show_bytes((byte_pointer)&ux, sizeof(unsigned));
 
+  unsigned uy = sx;
+  printf("uy = %u:\t", uy);
+  show_bytes((byte_pointer)&uy, sizeof(unsigned));
+
   return 0;
 }
