@@ -17,6 +17,8 @@ add_executable(ans_2_35 ans_2_35.c)
 add_executable(ans_2_36 ans_2_36.c)
 add_executable(ans_2_42 ans_2_42.c)
 add_executable(ans_2_54 ans_2_54.c)
+add_executable(ans_2_57 ans_2_57.c)
+add_executable(ans_2_58 ans_2_58.c)
 
 target_link_libraries(ans_2_5 PUBLIC print_bytes)
 target_include_directories(ans_2_5 PUBLIC
