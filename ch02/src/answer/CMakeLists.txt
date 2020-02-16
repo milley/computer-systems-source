@@ -19,6 +19,14 @@ add_executable(ans_2_42 ans_2_42.c)
 add_executable(ans_2_54 ans_2_54.c)
 add_executable(ans_2_57 ans_2_57.c)
 add_executable(ans_2_58 ans_2_58.c)
+add_executable(ans_2_59 ans_2_59.c)
+add_executable(ans_2_60 ans_2_60.c)
+add_executable(ans_2_61 ans_2_61.c)
+add_executable(ans_2_62 ans_2_62.c)
+add_executable(ans_2_63 ans_2_63.c)
+
+
+add_executable(get_msb get_msb.c)
 
 target_link_libraries(ans_2_5 PUBLIC print_bytes)
 target_include_directories(ans_2_5 PUBLIC
