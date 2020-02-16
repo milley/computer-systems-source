@@ -24,6 +24,9 @@ add_executable(ans_2_60 ans_2_60.c)
 add_executable(ans_2_61 ans_2_61.c)
 add_executable(ans_2_62 ans_2_62.c)
 add_executable(ans_2_63 ans_2_63.c)
+add_executable(ans_2_64 ans_2_64.c)
+add_executable(ans_2_65 ans_2_65.c)
+add_executable(ans_2_66 ans_2_66.c)
 
 
 add_executable(get_msb get_msb.c)
