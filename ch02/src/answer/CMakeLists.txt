@@ -33,6 +33,9 @@ add_executable(ans_2_69 ans_2_69.c)
 add_executable(ans_2_70 ans_2_70.c)
 add_executable(ans_2_71 ans_2_71.c)
 add_executable(ans_2_72 ans_2_72.c)
+add_executable(ans_2_73 ans_2_73.c)
+add_executable(ans_2_74 ans_2_74.c)
+add_executable(ans_2_75 ans_2_75.c)
 
 
 add_executable(get_msb get_msb.c)
