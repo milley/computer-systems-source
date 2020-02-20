@@ -36,6 +36,13 @@ add_executable(ans_2_72 ans_2_72.c)
 add_executable(ans_2_73 ans_2_73.c)
 add_executable(ans_2_74 ans_2_74.c)
 add_executable(ans_2_75 ans_2_75.c)
+add_executable(ans_2_76 ans_2_76.c)
+add_executable(ans_2_77 ans_2_77.c)
+add_executable(ans_2_78 ans_2_78.c)
+add_executable(ans_2_79 ans_2_79.c)
+add_executable(ans_2_80 ans_2_80.c)
+add_executable(ans_2_81 ans_2_81.c)
+add_executable(ans_2_82 ans_2_82.c lib/random.c)
 
 
 add_executable(get_msb get_msb.c)
