@@ -43,6 +43,7 @@ add_executable(ans_2_79 ans_2_79.c)
 add_executable(ans_2_80 ans_2_80.c)
 add_executable(ans_2_81 ans_2_81.c)
 add_executable(ans_2_82 ans_2_82.c lib/random.c)
+add_executable(ans_2_84 ans_2_84.c)
 
 
 add_executable(get_msb get_msb.c)
