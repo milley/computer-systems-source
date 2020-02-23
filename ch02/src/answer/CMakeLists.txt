@@ -44,6 +44,11 @@ add_executable(ans_2_80 ans_2_80.c)
 add_executable(ans_2_81 ans_2_81.c)
 add_executable(ans_2_82 ans_2_82.c lib/random.c)
 add_executable(ans_2_84 ans_2_84.c)
+add_executable(ans_2_89 ans_2_89.c lib/random.c)
+add_executable(ans_2_90 ans_2_90.c)
+add_executable(ans_2_91_97 lib/random.c floats/float_f2i.c floats/float_half.c
+  floats/float_i2f.c floats/float_twice.c floats/float_absval.c
+  floats/float_negate.c floats/main.c)
 
 
 add_executable(get_msb get_msb.c)
