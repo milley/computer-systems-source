@@ -1,5 +1,5 @@
 objects = mstore.s mstore.o prog exchange.s scale.s arith.s \
-					store_uprod.s remdiv.s
+					store_uprod.s remdiv.s absdiff.s cmovdiff.s
 
 mstore.s:	mstore.c
 	gcc -Og -S mstore.c
@@ -24,6 +24,12 @@ store_uprod.s: store_uprod.c
 
 remdiv.s: remdiv.c
 	gcc -Og -S remdiv.c
+
+absdiff.s: absdiff.c
+	gcc -Og -S absdiff.c
+
+cmovdiff.s: cmovdiff.c
+	gcc -Og -S cmovdiff.c
 
 clean:
 	rm $(objects)
