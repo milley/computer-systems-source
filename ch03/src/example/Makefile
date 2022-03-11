@@ -2,7 +2,8 @@ objects = mstore.s mstore.o prog exchange.s scale.s arith.s \
 					store_uprod.s remdiv.s absdiff.s cmovdiff.s \
 					fact_do.s fact_do_goto.s fact_while.s fact_while_jm_goto.s \
 					fact_while_gd_goto.s fact_for_while.s fact_for.s fact_for_jm_goto.s \
-					switch_eg.s
+					switch_eg.s swap_add.s rfact.s fix_probe_ele.s fix_probe_ele_opt.s \
+					var_ele.s var_prod_ele.s var_prod_ele_opt.s
 
 
 mstore.s:	mstore.c
@@ -61,6 +62,27 @@ fact_for_jm_goto.s: fact_for_jm_goto.c
 
 switch_eg.s: switch_eg.c
 	gcc -Og -S switch_eg.c
+
+swap_add.s: swap_add.c
+	gcc -Og -S swap_add.c
+
+rfact.s: rfact.c
+	gcc -Og -S rfact.c
+
+fix_probe_ele.s: fix_probe_ele.c
+	gcc -Og -S fix_probe_ele.c
+
+fix_probe_ele_opt.s: fix_probe_ele_opt.c
+	gcc -Og -S fix_probe_ele_opt.c
+
+var_ele.s: var_ele.c
+	gcc -Og -S var_ele.c
+
+var_prod_ele.s: var_prod_ele.c
+	gcc -Og -S var_prod_ele.c
+
+var_prod_ele_opt.s: var_prod_ele_opt.c
+	gcc -Og -S var_prod_ele_opt.c
 
 clean:
 	rm $(objects)
