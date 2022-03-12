@@ -3,7 +3,8 @@ objects = mstore.s mstore.o prog exchange.s scale.s arith.s \
 					fact_do.s fact_do_goto.s fact_while.s fact_while_jm_goto.s \
 					fact_while_gd_goto.s fact_for_while.s fact_for.s fact_for_jm_goto.s \
 					switch_eg.s swap_add.s rfact.s fix_probe_ele.s fix_probe_ele_opt.s \
-					var_ele.s var_prod_ele.s var_prod_ele_opt.s
+					var_ele.s var_prod_ele.s var_prod_ele_opt.s vframe.s float_mov.s \
+					fcvt.s funct.s cel2fahr.s find_range.s
 
 
 mstore.s:	mstore.c
@@ -83,6 +84,24 @@ var_prod_ele.s: var_prod_ele.c
 
 var_prod_ele_opt.s: var_prod_ele_opt.c
 	gcc -Og -S var_prod_ele_opt.c
+
+vframe.s: vframe.c
+	gcc -Og -S vframe.c
+
+float_mov.s: float_mov.c
+	gcc -Og -S float_mov.c
+
+fcvt.s: fcvt.c
+	gcc -Og -S fcvt.c
+
+funct.s: funct.c
+	gcc -Og -S funct.c
+
+cel2fahr.s: cel2fahr.c
+	gcc -Og -S cel2fahr.c
+
+find_range.s: find_range.c
+	gcc -Og -S find_range.c
 
 clean:
 	rm $(objects)
