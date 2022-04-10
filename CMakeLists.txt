@@ -8,3 +8,5 @@ SET(CMAKE_CXX_FLAGS_RELEASE "$ENV{CXXFLAGS} -O3 -Wall")
 
 add_subdirectory(ch02)
 add_subdirectory(ch03)
+add_subdirectory(ch04)
+add_subdirectory(ch05)

@@ -14,7 +14,7 @@ mstore.o:	mstore.c
 	gcc -Og -c mstore.c
 
 prog:	main.c mstore.c
-	gcc -Og -o prog main.c mstore.c
+	gcc -Og -g -o prog main.c mstore.c
 
 exchange.s: exchange.c
 	gcc -Og -S exchange.c
